@@ -19,7 +19,7 @@ st.title("PalmWood Mortgages")
 st.caption("AI-Powered UAE DBR & Pre-Underwriting Engine")
 
 # API Key Input
-api_key = st.sidebar.text_input("Enter OpenRouter / OpenAI API Key", type="password")
+api_key = st.secrets.get("OPENROUTER_API_KEY")
 
 uploaded_file = st.file_uploader("Upload Client Bank Statement (PDF)", type=["pdf"])
 
