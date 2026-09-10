@@ -16,7 +16,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("PalmWood Mortgages")
-st.subtitle("AI-Powered UAE DBR & Pre-Underwriting Engine")
+st.caption("AI-Powered UAE DBR & Pre-Underwriting Engine")
 
 # API Key Input
 api_key = st.sidebar.text_input("Enter OpenRouter / OpenAI API Key", type="password")
